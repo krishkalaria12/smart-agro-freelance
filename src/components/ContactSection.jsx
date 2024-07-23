@@ -3,9 +3,9 @@ import ContactForm from './ContactForm'
 
 function ContactSection() {
     return (
-        <div className='py-8 border-b-2 px-20 border-b-slate-700 bg-[#334B35] flex items-center mx-auto'>
-            <div className='container w-full flex items-center justify-between'>
-                <div className='text-white w-[50%] flex flex-col space-y-5'>
+        <div className='py-8 border-b-2 md:px-20 px-6 border-b-slate-700 bg-[#334B35] flex items-center mx-auto'>
+            <div className='container w-full flex md:flex-row md:space-y-0 space-y-6 flex-col items-center justify-between'>
+                <div className='text-white md:w-[50%] w-full flex flex-col space-y-5'>
                     <div>
                         <p className=' text-white text-sm mb-3'>CONTACT NOW</p>
                         <h3 className='text-3xl text-white font-bold '>GET IN TOUCH NOW</h3> 
@@ -25,7 +25,7 @@ function ContactSection() {
                         <p className='text-base'>Road No. 8, Niketan, Dhaka, Bangladesh</p>
                     </div>
                 </div>
-                <div className='w-[50%]'>
+                <div className='md:w-[50%] w-full'> 
                     <ContactForm />
                 </div>
             </div>
