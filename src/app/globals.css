@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-color {
+  color: #f7c3f5;
+}
+=======
 .embla {
     overflow: hidden;
   }
@@ -12,4 +16,4 @@
     flex: 0 0 100%;
     min-width: 0;
   }
-  
+ 
